@@ -1,0 +1,173 @@
+# Values for all repairable armor, weapons, and tools.
+# Format:
+# MATERIAL_NAME:
+#   cost: <double>
+#   xp: <int>
+
+# --- ARMOR ---
+
+LEATHER_HELMET:
+  cost: 5.0
+  xp: 5
+LEATHER_CHESTPLATE:
+  cost: 8.0
+  xp: 8
+LEATHER_LEGGINGS:
+  cost: 7.0
+  xp: 7
+LEATHER_BOOTS:
+  cost: 4.0
+  xp: 4
+
+CHAINMAIL_HELMET:
+  cost: 12.0
+  xp: 12
+CHAINMAIL_CHESTPLATE:
+  cost: 20.0
+  xp: 20
+CHAINMAIL_LEGGINGS:
+  cost: 18.0
+  xp: 18
+CHAINMAIL_BOOTS:
+  cost: 10.0
+  xp: 10
+
+IRON_HELMET:
+  cost: 15.0
+  xp: 15
+IRON_CHESTPLATE:
+  cost: 24.0
+  xp: 24
+IRON_LEGGINGS:
+  cost: 21.0
+  xp: 21
+IRON_BOOTS:
+  cost: 12.0
+  xp: 12
+
+GOLD_HELMET:
+  cost: 13.0
+  xp: 13
+GOLD_CHESTPLATE:
+  cost: 21.0
+  xp: 21
+GOLD_LEGGINGS:
+  cost: 19.0
+  xp: 19
+GOLD_BOOTS:
+  cost: 11.0
+  xp: 11
+
+DIAMOND_HELMET:
+  cost: 50.0
+  xp: 50
+DIAMOND_CHESTPLATE:
+  cost: 80.0
+  xp: 80
+DIAMOND_LEGGINGS:
+  cost: 70.0
+  xp: 70
+DIAMOND_BOOTS:
+  cost: 40.0
+  xp: 40
+
+# --- SWORDS ---
+
+WOOD_SWORD:
+  cost: 3.0
+  xp: 3
+STONE_SWORD:
+  cost: 5.0
+  xp: 5
+IRON_SWORD:
+  cost: 10.0
+  xp: 10
+GOLD_SWORD:
+  cost: 7.0
+  xp: 7
+DIAMOND_SWORD:
+  cost: 30.0
+  xp: 30
+
+# --- TOOLS ---
+WOOD_PICKAXE:
+  cost: 3.0
+  xp: 3
+WOOD_AXE:
+  cost: 3.0
+  xp: 3
+WOOD_SPADE:
+  cost: 2.0
+  xp: 2
+WOOD_HOE:
+  cost: 2.0
+  xp: 2
+
+STONE_PICKAXE:
+  cost: 5.0
+  xp: 5
+STONE_AXE:
+  cost: 5.0
+  xp: 5
+STONE_SPADE:
+  cost: 4.0
+  xp: 4
+STONE_HOE:
+  cost: 4.0
+  xp: 4
+
+IRON_PICKAXE:
+  cost: 10.0
+  xp: 10
+IRON_AXE:
+  cost: 10.0
+  xp: 10
+IRON_SPADE:
+  cost: 8.0
+  xp: 8
+IRON_HOE:
+  cost: 8.0
+  xp: 8
+
+GOLD_PICKAXE:
+  cost: 7.0
+  xp: 7
+GOLD_AXE:
+  cost: 7.0
+  xp: 7
+GOLD_SPADE:
+  cost: 6.0
+  xp: 6
+GOLD_HOE:
+  cost: 6.0
+  xp: 6
+
+DIAMOND_PICKAXE:
+  cost: 30.0
+  xp: 30
+DIAMOND_AXE:
+  cost: 30.0
+  xp: 30
+DIAMOND_SPADE:
+  cost: 28.0
+  xp: 28
+DIAMOND_HOE:
+  cost: 28.0
+  xp: 28
+
+# --- OTHER REPAIRABLES (if you want to support these) ---
+BOW:
+  cost: 8.0
+  xp: 8
+FISHING_ROD:
+  cost: 6.0
+  xp: 6
+SHEARS:
+  cost: 5.0
+  xp: 5
+FLINT_AND_STEEL:
+  cost: 5.0
+  xp: 5
+CARROT_STICK:
+  cost: 5.0
+  xp: 5

@@ -1,0 +1,82 @@
+# RepairHammers plugin configuration
+
+hammers:
+  COMMON:
+    material: "STONE_AXE"
+    repair_amount: 100
+    use_cooldown: false
+    cooldown_seconds: 60
+    item:
+      name: "&fCommon Repair Hammer"
+      lore:
+        - "&7Right-click to repair all items in your inventory!"
+        - "&bFailure Chance: &c{fail_chance}%"
+    minFail: 30
+    maxFail: 50
+    particles:
+      success: "FIREWORKS_SPARK"
+      failure: "SMOKE"
+
+  UNCOMMON:
+    material: "STONE_AXE"
+    repair_amount: 100
+    use_cooldown: false
+    cooldown_seconds: 60
+    item:
+      name: "&aUncommon Repair Hammer"
+      lore:
+        - "&7Right-click to repair all items in your inventory!"
+        - "&bFailure Chance: &c{fail_chance}%"
+    minFail: 20
+    maxFail: 29
+    particles:
+      success: "FIREWORKS_SPARK"
+      failure: "SMOKE"
+
+  RARE:
+    material: "STONE_AXE"
+    repair_amount: 100
+    use_cooldown: false
+    cooldown_seconds: 60
+    item:
+      name: "&9Rare Repair Hammer"
+      lore:
+        - "&7Right-click to repair all items in your inventory!"
+        - "&bFailure Chance: &c{fail_chance}%"
+    minFail: 10
+    maxFail: 19
+    particles:
+      success: "FIREWORKS_SPARK"
+      failure: "SMOKE"
+
+  EPIC:
+    material: "STONE_AXE"
+    repair_amount: 100
+    use_cooldown: false
+    cooldown_seconds: 60
+    item:
+      name: "&dEpic Repair Hammer"
+      lore:
+        - "&7Right-click to repair all items in your inventory!"
+        - "&bFailure Chance: &c{fail_chance}%"
+    minFail: 5
+    maxFail: 9
+    particles:
+      success: "FIREWORKS_SPARK"
+      failure: "SMOKE"
+
+  LEGENDARY:
+    material: "STONE_AXE"
+    repair_amount: 100
+    use_cooldown: false
+    cooldown_seconds: 60
+    item:
+      name: "&6Legendary Repair Hammer"
+      lore:
+        - "&7Right-click to repair all items in your inventory!"
+        - "&bFailure Chance: &c{fail_chance}%"
+    minFail: 1
+    maxFail: 4
+    particles:
+      success: "FIREWORKS_SPARK"
+      failure: "SMOKE"

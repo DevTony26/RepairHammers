@@ -1,0 +1,42 @@
+plugins {
+    id 'java'
+    id 'com.github.johnrengelman.shadow' version '8.1.1'
+}
+
+group = 'DevTony'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+    maven { url = 'https://hub.spigotmc.org/nexus/content/repositories/public/' }
+    maven { url = 'https://jitpack.io' }
+}
+
+dependencies {
+    compileOnly 'org.spigotmc:spigot-api:1.8.8-R0.1-SNAPSHOT'
+    compileOnly 'com.github.MilkBowl:VaultAPI:1.7'
+    implementation 'com.github.cryptomorin:XSeries:9.8.0'
+}
+
+shadowJar {
+    relocate 'com.cryptomorin.xseries', 'DevTony.repairHammers.shaded.xseries'
+}
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_1_8
+    targetCompatibility = JavaVersion.VERSION_1_8
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+}
+
+// Uncomment this section ONLY if you use variables (like ${version}) in your plugin.yml
+// processResources {
+//     def props = [version: version]
+//     inputs.properties props
+//     filteringCharset 'UTF-8'
+//     filesMatching('plugin.yml') {
+//         expand props
+//     }
+// }

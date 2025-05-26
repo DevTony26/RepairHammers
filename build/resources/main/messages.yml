@@ -1,0 +1,13 @@
+# Messages for RepairHammers plugin
+# Supports placeholders like %player_name%
+
+prefix: "&8[&6Repair&fHammers&8] "
+no-permission: "%prefix% &cYou do not have permission to use this!"
+only-players: "%prefix% &cOnly players can use this command!"
+repair-success: "%prefix% &aYour item has been repaired."
+not-damaged: "%prefix% &eThis item does not need repair."
+hammer-broke: "%prefix% &cYour Repair Hammer broke while repairing!"
+repair-failed: "%prefix% &cThe repair failed! Be careful next time..."
+repair-summary: "%prefix% &aRepair Summary:&r &eTotal cost: &6{cost} &7| &eTotal XP: &b{xp}"
+no-damaged-items: "%prefix% &7You have no damaged repairable items in your inventory."
+repair_none_available: "&cNo damaged repairable items in your inventory!"

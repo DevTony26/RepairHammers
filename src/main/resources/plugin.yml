@@ -1,0 +1,6 @@
+name: RepairHammers
+version: '1.0-SNAPSHOT'
+main: DevTony.repairHammers.RepairHammers
+api-version: '1.8'
+authors: [ DevTony ]
+softdepend: [Vault]
